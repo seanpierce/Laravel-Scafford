@@ -66,7 +66,7 @@ echo "Setting up a new Git repository..."
 
 {
     rm -rf .git
-    git inst
+    git init
     git add .
     git commit -m "Initialize project with setup script"
 } || {
