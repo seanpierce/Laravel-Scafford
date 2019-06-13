@@ -32,4 +32,8 @@ extend/scaffold-model.sh
 The `extend/scaffold-model.sh` script will:
 
 * Execute the built-in resource scaffoling process that ships with a Laravel installation
+  * Controller with CRUD endpoints
+  * Model
+  * Migration
+  * Provider
 * Create a Vue.js application with placeholder methods and views for resource managemnt through the admin portal
