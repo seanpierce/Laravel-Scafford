@@ -5,11 +5,11 @@ This project is an extension of a basic Laravel installation. It's modified to i
 ## Installation and Usage
 
 ```shell
-./setup.sh
+extend/setup.sh
 php artisan serve
 ```
 
-The `setup.sh` script will:
+The `extend/setup.sh` script will:
 
 * Create .env file
 * Install dependencies
@@ -22,3 +22,14 @@ Then, visit http://localhost:8000/admin to log in.
 | Email          | Password | Role  |
 |:---------------|:---------|:------|
 | admin@site.com | Test123  | Admin |
+
+To create a new model, with all of it's CRUD resources and a vue application for resource management in the admin section, execute the following command:
+
+```shell
+extend/scaffold-model.sh
+```
+
+The `extend/scaffold-model.sh` script will:
+
+* Execute the built-in resource scaffoling process that ships with a Laravel installation
+* Create a Vue.js application with placeholder methods and views for resource managemnt through the admin portal
