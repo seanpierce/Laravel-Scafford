@@ -5,6 +5,7 @@ This project is an extension of a basic Laravel installation. It's modified to i
 ## Installation and Usage
 
 ```shell
+chmod +x extend/setup.sh
 extend/setup.sh
 php artisan serve
 ```
